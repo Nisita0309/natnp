@@ -1,0 +1,435 @@
+* {
+    font-family: 'Nunito',sans-serif;
+}
+
+.name {
+    color: #6D2323;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    color: #FEF9E1;
+}
+
+.content {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 200px; 
+    margin: 0 auto; 
+    max-width: 1200px; 
+}
+
+.para {
+    color: #6D2323;
+    max-width: 400px;
+    font-size: 16px;
+    font-weight: 600;
+    flex: 2; 
+    background-color: #ffecec;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+ 
+.img img{
+    flex: 1;
+    width: 280px;
+    height: auto;
+    border-radius: 8px; 
+}
+
+.img {
+    background: linear-gradient(135deg, #ffecec, hsl(0, 100%, 95%)); 
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.social {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.bt {
+    display: flex;
+    align-items: center;
+    color: #6D2323; 
+    font-size: 16px; 
+    font-weight: 700; 
+}
+  
+.bt .material-icons {
+    margin-right: 8px; 
+    font-size: 20px; 
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    background-color: #6D2323;
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.appsheet{
+    align-items: center;
+    background-color: #6d232328;
+    gap: 20px;   
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;   
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #6D2323;
+}
+
+.headAs {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.As{
+    font-weight: 700;
+    max-width: 600px;
+}
+
+.appsheet img{
+    width: 300px;
+    height: auto;
+}
+
+.linkApp a {
+    text-decoration: none;
+    color: white;
+    background-color: #6D2323;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.futureTech{
+    align-items: center;
+    background-color: #6d232328;
+    gap: 20px;   
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;   
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #6D2323;
+    margin-top: 20px;
+}
+
+.futureTech img{
+    width: 300px;
+    height: auto;
+}
+
+.headFt {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Ft{
+    font-weight: 700;
+    max-width: 600px;
+}
+
+.headLink{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Hl{
+    font-weight: 700;
+    max-width: 600px;
+}
+
+.link img{
+    width: 300px;
+    height: auto;
+}
+
+.link{
+    align-items: center;
+    background-color: #6d232328;
+    gap: 20px;   
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;   
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #6D2323;
+    margin-top: 20px;
+}
+
+.headJv{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Jv{
+    font-weight: 700;
+    max-width: 600px;
+}
+
+.java img{
+    width: 300px;
+    height: auto;
+}
+
+.java{
+    align-items: center;
+    background-color: #6d232328;
+    gap: 20px;   
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;   
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #6D2323;
+    margin-top: 20px;
+}
+
+.matlab{
+    align-items: center;
+    background-color: #6d232328;
+    gap: 20px;   
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;   
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #6D2323;
+    margin-top: 20px;
+}
+
+.headMl{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.matlab img{
+    width: 300px;
+    height: auto;
+}
+
+.sa{
+    align-items: center;
+    background-color: #6d232328;
+    gap: 20px;   
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;   
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #6D2323;
+}
+
+.headSa {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Sa{
+    font-weight: 700;
+    max-width: 600px;
+}
+
+.sa img{
+    width: 300px;
+    height: auto;
+}
+
+.linkSa a {
+    text-decoration: none;
+    color: white;
+    background-color: #6D2323;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.pizza{
+    align-items: center;
+    background-color: #6d232328;
+    gap: 20px;   
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;   
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #6D2323;
+    margin-top: 20px;
+}
+
+.headPz {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Pz{
+    font-weight: 700;
+    max-width: 600px;
+}
+
+.linkPz a {
+    text-decoration: none;
+    color: white;
+    background-color: #6D2323;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.fitness{
+    align-items: center;
+    background-color: #6d232328;
+    gap: 20px;   
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;   
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #6D2323;
+    margin-top: 20px;
+}
+
+.headFn {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Fn{
+    font-weight: 700;
+    max-width: 600px;
+}
+
+.linkFn a {
+    text-decoration: none;
+    color: white;
+    background-color: #6D2323;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.soft{
+    align-items: center;
+    background-color: #6d232328;
+    gap: 20px;   
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;   
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #6D2323;
+    margin-top: 20px;
+}
+
+.headS {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.S{
+    font-weight: 700;
+    max-width: 600px;
+}
+
+.linkS a {
+    text-decoration: none;
+    color: white;
+    background-color: #6D2323;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.iot{
+    align-items: center;
+    background-color: #6d232328;
+    gap: 20px;   
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;   
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #6D2323;
+    margin-top: 10px;
+}
+
+.headIot {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Iot{
+    font-weight: 700;
+    max-width: 600px;
+}
+
+.iot img{
+    width: 300px;
+    height: auto;
+}
+
+.linkIot a {
+    text-decoration: none;
+    color: white;
+    background-color: #6D2323;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.car{
+    align-items: center;
+    background-color: #6d232328;
+    gap: 20px;   
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;   
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #6D2323;
+    margin-top: 20px;
+}
+
+.headCar {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Car{
+    font-weight: 700;
+    max-width: 600px;
+}
+
+.linkCar a {
+    text-decoration: none;
+    color: white;
+    background-color: #6D2323;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
